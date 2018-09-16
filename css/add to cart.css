@@ -1,0 +1,411 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-13 21:56:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 11:58:17
+*/
+header{
+	width: 100%;
+	height: 3.6rem;
+	background: #f9bc19;
+	display: flex;
+	position: relative;
+
+}
+header .box{
+	width: 7.5rem;
+	height: 3.6rem;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	flex-direction:column;
+	align-items:center;
+	
+}
+header .box .top{
+	width: 6.7rem;
+	height: 0.75rem;
+	display: flex;
+	justify-content:space-between;
+}
+header .box .top img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0.2rem;
+}
+header .box .take{
+	width: 6.7rem;
+	height: 2.1rem;
+	display: flex;
+}
+header .box .take .left{
+	width: 2.1rem;
+	height: 2.1rem;
+	background-image: url('../img/店铺.jpg');
+	border-radius: 0.2rem;
+	background-size: 150% 150%;
+	background-position: -0.4rem -0.2rem;
+	margin: 0 0.7rem;
+}
+header .box .take .right{
+	width: 3.2rem;
+	height: 2.1rem;
+	display: flex;
+
+}
+header .box .take .right ul li{
+	width: 100%;
+	height: 0.35rem;
+}
+header .box .take .right .title{
+	font-size: 0.3rem;
+	color: #fdfcfb;
+}
+header .box .take .right .line{
+	width: 3rem;
+	display: flex;
+}
+header .box .take .right .line1{
+	width: 1.6rem;
+	height: 0.04rem;
+	border-radius: 0.02rem;
+	background: #fbdd8b;
+	margin-top: 0.2rem;
+	
+}
+header .box .take .right .line2{
+	width: 0.4rem;
+	height: 0.04rem;
+	border-radius: 0.02rem;
+	background: #fbdd8b;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+header .box .take .right .line3{
+	width: 0.2rem;
+	height: 0.04rem;
+	border-radius: 0.02rem;
+	background: #fbdd8b;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+/* header .box .take .right .place .icon{
+	background-image: url('../img/位置.png');
+	width: 0.3rem;
+	height: 0.4rem;
+	color: #fff;
+} */
+header .box .take .right .place{
+	display: flex;
+}
+header .box .take .right .place img{
+	width: 0.3rem;
+	height: 0.4rem;
+}
+header .box .take .right .place i{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .box .take .right .rate{
+	display: flex;
+}
+header .box .take .right .rate .box1{
+	width: 0.74rem;
+	height: 0.32rem;
+	font-size: 0.25rem;
+	line-height: 0.32rem;
+	border-radius: 0.16rem;
+	border: 0.02rem solid #fff;
+	color: #fff;
+}
+header .box .take .right .rate .box2{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 0.05rem;
+	background: #fff;
+	margin: 0.17rem 0.2rem 0 0.2rem;
+}
+header .box .take .right .rate{
+	font-size: 0.3rem;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+header .box .take .right .score{
+	font-size: 0.3rem;
+	color: #fff;
+	display: flex;
+}
+header .box .take .right .score .term{
+	font-size: 0.3rem;
+	margin-left: 0.2rem;
+	color: #fff;
+}
+main .tip{
+	width: 100%;
+	height: 0.7rem;
+	border-radius: 0.2rem;
+	font-size: 0.3rem;
+	border: 0.04rem solid #f9bc19;
+	border-top: none;
+	border-left: none;
+	border-right: none; 
+	text-align: center;
+	color: #f9bc19;
+}
+nav .box{
+	width: 100%;
+	height: 0.7rem;
+	border-radius: 0.2rem;
+	border: 0.04rem solid #f9bc19;
+	border-top: none;
+	border-left: none;
+	border-right: none; 
+	display: flex;
+	justify-content:space-around;
+}
+nav .box i{
+	font-size: 0.4rem;
+	color: #f9bc19;
+	line-height: 0.7rem;
+}
+aside .left ul li{
+	margin-top: 0.45rem;
+	width: 2rem;
+	height: 0.7rem;
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	border: 0.04rem solid #f9bc19;
+	background: #f9bc19;
+	border-top: none;
+	border-left: none;
+	border-right: none; 
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.3rem;
+	color: #fff;
+}
+main .box{
+	width: 4.4rem;
+	height: 7.4rem;
+	
+	position: fixed;
+	right: 0.24rem;
+	top: 5.25rem;
+	overflow: scroll;
+}
+main .box ul li{
+	width: 4.2rem;
+	height: 1.4rem;
+	border: 0.04rem solid #f9bc19;
+	margin-bottom: 0.24rem;
+	border-radius: 0.2rem;
+	overflow: hidden;
+	display: flex;
+}
+main .box ul li img{
+	width: 1.85rem;
+	height: 100%;
+}
+main .box ul li .con{
+	margin-left: 0.1rem;
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+main .box ul li .con .first{
+	text-align: center;
+	font-size: 0.22rem;
+	color: #f9bc19;
+}
+
+
+main .box ul li .con .add{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	margin-left: 1.20rem;
+	margin-top: 0.25rem;
+	display: flex;
+
+}
+main .box ul li .con .add .left{
+	width: 0.3rem;
+	height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	border-radius: 0.15rem;
+	background: #ababa9;
+	color: #fff;
+	font-size: 0.3rem;
+	
+}
+main .box ul li .con .add .right{
+	width: 0.3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	border-radius: 0.15rem;
+	background: #f9bc19;
+	color: #fff;
+	font-size: 0.3rem;
+	
+}
+
+
+main .box ul li .con .buy{
+	width: 0.6rem;
+	height: 0.25rem;
+	font-size: 0.15rem;
+	text-align: center;
+	line-height: 0.25rem;
+	color: #fff;
+	background: #d31c59;
+	margin-left: 1.25rem;
+	margin-top: 0.25rem;
+	border-radius: 0.1rem;
+}
+main .box ul li .con .buy a{
+	color: #fff;
+}
+main .box ul li .con .rate{
+	margin-top: 0.25rem;
+	display: flex;
+	flex-direction: row;
+}
+main .box ul li .con .rate i{
+	font-size: 0.16rem;
+	color: #f43776;
+	line-height: 0.16rem;
+}
+main .box ul li .con .rate del{
+	line-height: 0.14rem;
+	font-size: 0.14rem;
+	color: #d5d1d2;
+}
+main .box ul li .con .rate p{
+	/*margin-left: 0.4rem;*/
+	line-height: 0.16rem;
+	font-size: 0.16rem;
+	color: #cecdcd;
+}
+footer{
+	width: 100%;
+	height: 0.8rem;
+	background: #f36915;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer .left{
+	display: flex;
+	flex-direction: column-reverse;
+}
+footer .left .one{
+	text-align: center;
+	font-size: 0.36rem;
+	color: #fff;
+}
+footer .left .two{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+	margin-left: 0.24rem;
+}
+footer .right{
+	font-size: 0.42rem;
+	line-height: 0.80rem;
+	color: #fff;
+	margin-right: 0.24rem;
+}
+footer .right a{
+	color: #fff;
+}
+/*遮罩*/
+.dark{
+	width: 100%;
+	height: 13.34rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	/*opacity: 0.6;*/
+	background: rgba(255,255,255,0.8);;
+}
+.buying{
+	width: 5.1rem;
+	height: 5.5rem;
+	background: #fff;
+	position: fixed;
+	left: 1.2rem;
+	top:3.82rem ;
+	border-radius: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.buying img{
+	width: 100%;
+	height: 3.5rem;
+}
+.buying .con{
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+}
+.buying .con p{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	color: #7575;
+}
+.buying .con .add{
+	font-size: 0.3rem;
+	line-height: 0.3rem;
+	display: flex;
+	color: #7575;
+	margin-top: 0.2rem;
+
+}
+.buying .con .add .left{
+	width: 0.3rem;
+	height: 0.3rem;
+	text-align: center;
+	line-height: 0.3rem;
+	border-radius: 0.15rem;
+	background: #ababa9;
+	color: #fff;
+	font-size: 0.3rem;
+
+}
+.buying .con .add .right{
+	width: 0.3rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	border-radius: 0.15rem;
+	background: #f9bc19;
+	color: #fff;
+	font-size: 0.3rem;
+}
+.buying .con .box{
+	display: flex;
+}
+.buying .con .box i{
+	font-size: 0.3rem;
+	color: #f23573;
+	line-height: 0.7rem;
+}
+.buying .con .link{
+	width: 1.9rem;
+	height: 0.7rem;
+	background: #f9bc19;
+	border-radius: 0.2rem;
+	font-size: 0.42rem;
+	padding-left: 0.2rem;
+	margin-left: 0.6rem;
+
+}
+.buying .con .link a{
+	color: #fff;
+}

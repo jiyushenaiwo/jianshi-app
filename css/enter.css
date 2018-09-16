@@ -1,0 +1,128 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 08:45:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 11:37:06
+*/
+.enter{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/登录背景.png');
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.enter .top .con{
+	width: 1.1rem;
+	height: 0.55rem;
+	color: #fff;
+	font-size: 0.55rem;
+	position: absolute;
+	top: 4.2rem;
+	left:3.5rem; 
+}
+.enter .top .icon{
+	width: 3.05rem;
+	height: 0.3rem;
+	background: #fff;
+	opacity: 0.6;
+	border-radius: 0.15rem;
+	position: absolute;
+	top: 4.4rem;
+	left: 2.5rem;
+}
+.enter .box .zc{
+	width: 4.2rem;
+	height: 1rem;
+	border-top-right-radius: 0.2rem;
+	border-top-left-radius: 0.2rem;
+	background: #fdf1f1;
+	position: absolute;
+	top: 6.3rem;
+	left: 1.84rem;
+	color: #f9bc19;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 1rem;
+}
+.enter .box .dl{
+	width: 5.7rem;
+	height: 5.5rem;
+	border-radius: 0.4rem;
+	background: #fff;
+	position: absolute;
+	top: 7.3rem;
+	left: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+.enter .box .dl h3{
+	color: #f9bc19;
+	font-size: 0.5rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.enter .box .dl .dividing{
+	width: 4.9rem;
+	height: 0.1rem;
+	background: #ccc;
+	border-radius: 0.05rem;
+	margin: 0 auto;
+}
+.enter .box .dl .one{
+	display: flex;
+	margin-top: 0.4rem;
+}
+.enter .box .dl .one img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left:0.2rem ;
+	margin-right: 0.4rem;
+}
+.enter .box .dl .one input{
+	height: 0.6rem;
+	line-height: 0.2rem;
+	border-radius: 0.1rem;
+	border: none;
+	background: #fef2d1;
+}
+.enter .box .dl .two{
+	display: flex;
+	margin-top: 0.4rem;
+}
+.enter .box .dl .two img{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-left:0.2rem ;
+	margin-right: 0.4rem;
+}
+.enter .box .dl .two input{
+	height: 0.6rem;
+	line-height: 0.2rem;
+	border-radius: 0.1rem;
+	border: none;
+	
+	background: #fef2d1;
+}
+.enter .box .dl .wjmm{
+	width: 1.8rem;
+	height: 0.45rem;
+	margin-left: 2.8rem;
+	margin-top: 0.1rem;
+}
+.enter .box .dl .knob{
+	width: 1.8rem;
+	height: 0.75rem;
+	background: #b3b2b1;
+	border-radius: 0.2rem;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.enter .box .dl .knob a{
+	font-size: 0.3rem;
+	color: #fff;
+	display: inline-block;
+	margin: 0 auto;
+	line-height: 0.75rem;
+}

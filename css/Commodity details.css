@@ -1,0 +1,221 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 18:33:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 22:38:52
+*/
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f9bc19;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+header .one{
+	height: 0.6rem;
+	width: 0.6rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+	position: relative;
+}
+header .one img{
+	width: 0.32rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0.14rem;
+	left: 0.14rem;
+
+}
+
+header .title{
+	height: 0.7rem;
+	width: 1.8rem;
+	position: absolute;
+	top:0.15rem;
+	left: 2.8rem;
+	font-size: 0.34rem;
+	color: #fefdfd;
+	text-align: center;
+	line-height: 0.7rem;
+	z-index: 1;
+}
+header .english{
+	width: 3.9rem;
+	height: 0.7rem;
+	position: absolute;
+	top: 0.35rem;
+	left: 2rem;
+	color: #fbd27c;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.7rem;
+}
+.banner img{
+	width: 100%;
+	height: 3.72rem;
+	margin-top: 0.9rem;
+}
+.con{
+	/* width: 100%; */
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+}
+.con h3{
+	font-size: 0.36rem;
+	color: #fac54b;
+	text-align: center;
+}
+.con img{
+	width: 1.2rem;
+	height: 0.25rem;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+}
+.con .text1{
+	color: #aeacab;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.con .text2{
+	color: #606060;
+	font-size: 0.26rem;
+	text-align: center;
+	margin-top: 0.25rem;
+}
+.con .left1{
+	color: #606060;
+	font-size: 0.26rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.con .box1{
+	width: 3.6rem;
+	height: 0.3rem;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 0.5rem;
+}
+.con .box1 i{
+	color: #606060;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+}
+.observe{
+	margin: 0 auto;
+}
+.observe img{
+	width: 7.15rem;
+	height: 2.1rem;
+	margin-left: 0.2rem;
+}
+.sell{
+	width: 7rem;
+	height: 4.62rem;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 0 0.24rem;
+	border-top: 0.1rem ;
+	border-color: #f0efef;
+}
+.sell .tex{
+	color: #000;
+	font-size: 0.3rem;
+	
+}
+.sell ul li{
+	width: 4.2rem;
+	height: 1.4rem;
+	border: 0.04rem solid #f9bc19;
+	margin-bottom: 0.24rem;
+	border-radius: 0.2rem;
+	overflow: hidden;
+	display: flex;
+	margin: 0 auto;
+}
+.sell ul li img{
+	width: 1.85rem;
+	height: 100%;
+}
+.sell ul li .con{
+	margin-left: 0.1rem;
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.sell ul li .con .first{
+	text-align: center;
+	font-size: 0.22rem;
+	color: #f9bc19;
+}
+.sell ul li .con .buy{
+	width: 0.6rem;
+	height: 0.25rem;
+	font-size: 0.15rem;
+	text-align: center;
+	line-height: 0.25rem;
+	color: #fff;
+	background: #d31c59;
+	margin-left: 1.25rem;
+	margin-top: 0.25rem;
+	border-radius: 0.1rem;
+}
+.sell ul li .con .buy a{
+	color: #fff;
+}
+.sell ul li .con .rate{
+	margin-top: 0.25rem;
+	display: flex;
+	flex-direction: row;
+}
+.sell ul li .con .rate i{
+	font-size: 0.16rem;
+	color: #f43776;
+	line-height: 0.16rem;
+}
+.sell ul li .con .rate del{
+	line-height: 0.14rem;
+	font-size: 0.14rem;
+	color: #d5d1d2;
+}
+.sell ul li .con .rate p{
+	margin-left: 0.4rem;
+	line-height: 0.16rem;
+	font-size: 0.16rem;
+	color: #cecdcd;
+}
+footer{
+	width: 100%;
+	height: 0.8rem;
+	background: #f36915;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer .left{
+	display: flex;
+	flex-direction: column-reverse;
+}
+footer .left .one{
+	text-align: center;
+	font-size: 0.36rem;
+	color: #fff;
+}
+footer .left .two{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+	margin-left: 0.24rem;
+}
+footer .right{
+	font-size: 0.42rem;
+	line-height: 0.80rem;
+	color: #fff;
+	margin-right: 0.24rem;
+}

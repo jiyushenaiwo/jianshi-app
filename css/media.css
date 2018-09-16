@@ -1,0 +1,263 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-08 11:09:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 14:14:24
+*/
+
+/* 首页 */
+header .seek{
+	width: 100%;
+	height: 1rem;
+	background-color: #f9bc19;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+
+}
+header .seek i{
+	display: block;
+	width: 0.8rem;
+	height: 0.4rem;
+	font-size: 0.3rem;
+	text-align: center;
+	color: #fff;
+	margin: 0 24px;
+}
+header .seek input{
+	width: 4.8rem;
+	height: 0.4rem;
+	background-color: #edfaff;
+	border-radius: 0.2rem;
+	border: none;
+	background-image: url('../img/放大镜.png');
+	background-position:0.2rem center;
+	background-repeat: no-repeat;
+	background-size: 0.2rem 0.2rem;
+}
+input::-webkit-input-placeholder{
+	font-size: 0.3rem;
+
+}
+header .seek .scan{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-image: url('../img/扫码.png');
+	background-size: 100% 100%;
+	margin: 0 24px;
+}
+ .banner{
+	background-image: url('../img/banner1.jpg');
+	width: 7.5rem;
+	height: 5rem;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+ .banner .team{
+	width: 1.8rem;
+	height: 0.3rem;
+	margin-bottom: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+ .banner .point{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 0.1rem;
+	border-width: 0.02rem;
+	border-color: :#f8bd1d; 
+	background: #fff;
+}
+nav{
+	width: 100%;
+	height: 3.5rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+}
+nav .sort{
+	width: 6rem;
+	height: 3rem;	
+	margin-top: 0.5rem;
+	display: flex;
+	flex-wrap:wrap;
+}
+nav .sort .icon{
+	width: 1rem;
+	height: 1.3rem;
+	margin: 0 0.25rem;
+}
+nav .sort .icon img{
+	width: 1rem;
+	height: 1.3rem;
+}
+.Flash{
+	width: 100%;
+	height: 1.4rem;
+	display:flex;
+	justify-content: center;
+}
+.Flash .sale{
+	width: 6.7rem;
+	height: 1.4rem;
+	background-image: url('../img/限时抢购.png');
+	background-size: 100% 100%;
+}
+.sale1{
+	width:100%;
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+}
+.sale1 img{
+	width: 6.7rem;
+	height: 3rem;
+}
+.merchant{
+	width: 100%;
+	height: 0.71rem;
+	display: flex;
+	justify-content: center;
+}
+.merchant img{
+	width: 6.7rem;
+	height: 0.71rem;
+}
+.sequence{
+	width: 6.7rem;
+	height: 0.25rem;
+	margin: 0 auto;
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-around;
+}
+.sequence i{
+	font-size: 0.25rem;
+	color: #f9bc19;
+}
+main{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction:column;
+	margin-top: 0.3rem;
+}
+main .box{
+	width: 6.7rem;
+	height: 2rem;
+	margin-left: 0.4rem;
+	display: flex;
+	justify-content:space-between;
+	margin-top: 0.3rem;
+
+}
+main .box .left img{
+	width: 1rem;
+	height: 1.45rem;
+	margin: 0.35rem 0.2rem ;
+}
+main .box .right{
+	width: 5rem;
+	height: 2.15rem;
+	display: flex;
+	 flex-direction: column;
+}
+main .box .right .box1{
+	width: 3.5rem;
+	display: flex;
+
+}
+main .box .right .box1 i{
+	width: 1.5rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+}
+main .box .right .box1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+main .box .right .box2{
+	width: 3.5rem;
+	display: flex;
+
+}
+main .box .right .box2 i{
+	width: 3.5rem;
+	height: 0.3rem;
+	font-size: 0.1rem;
+}
+main .box .right .box3{
+	width: 3.5rem;
+	display: flex;
+
+}
+main .box .right .box3 i{
+	width:3.3rem;
+	height: 0.3rem;
+	font-size: 0.3rem;
+	margin-left: 0.3rem;
+	color: #bdbbbc;
+}
+main .box .right .box4{
+	width: 3.5rem;
+	display: flex;
+
+}
+main .box .right .box4 i{
+	width: 3.3rem;
+	height: 0.3rem;
+	font-size: 0.25rem;
+	margin-left: 0.3rem;
+	color: #f9bc19;
+}
+main .box .right .box5{
+	width: 3.5rem;
+	display: flex;
+
+}
+main .box .right .box5 img{
+	width: 0.75rem;
+	height: 0.35rem;
+}
+main .box .right .box5 i{
+	font-size: 0.25rem;
+	color: #bdbbbc;
+}
+main .box .right .box6{
+	width: 3.5rem;
+	height: 0.3rem;
+	display: flex;
+
+}
+main .box .right .box6 img{
+	width: 0.35rem;
+	height: 0.35rem;
+	margin: 0 0.2rem;
+}
+main .box .right .box6 i{
+	font-size: 0.25rem;
+	color: #bdbbbc;
+}
+footer {
+	width: 100%;
+	height: 1.2rem;
+	background: #f9bc19;
+	display: flex;
+	justify-content:space-around;
+}
+footer img{
+	width: 1rem;
+	height: 1rem;
+}
+footer a{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+}
+.neirong{
+	width: 100%;
+	height: 11.03rem;
+	overflow: scroll;
+}
